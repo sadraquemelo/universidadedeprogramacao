@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    padding: 75px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header i {
+    width: 10px;
+    color: aliceblue;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+}
+
+header ul {
+    display: flex;
+    gap: 25px;
+}
+
+header ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+header a {
+    color: rgb(133, 133, 133);
+}
+
+
+/*===================sessão1=====================*/
+
+.sessao1 {
+    width: 100%;
+    padding: 170px;
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.sessao1 p {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.sessao1 img {
+    width: 30rem;
+}
+
+.sessao2 {
+    width: 100%;
+    padding: 200px;
+    background-image: url(imagem/pen-4337521_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.sessao2 h2 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.sessao2 p {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(199, 100, 100);
+}
+
+/*=================sessao2================*/
+
+.sessao3 {
+    padding: 170px;
+    background-color: black;
+}
+
+.sessao3 .pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.div {
+    width: 300px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.div1 {
+    background-image: url(imagem/ai-generated-8155552_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px white;
+}
+
+.div2 {
+    background-image: url(imagem/computer-1373684_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px white;
+}
+
+.div3 {
+    background-image: url(imagem/computer-4795762_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 10px white;
+}
+
+    
